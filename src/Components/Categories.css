@@ -1,0 +1,50 @@
+/* Grid container */
+.categories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  justify-items: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Light background color */
+}
+
+/* Each category item */
+.category-item {
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Icon design */
+.category-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem; /* Adjust font size for icons */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Category name */
+.category-name {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Hover effect */
+.category-item:hover .category-icon {
+  transform: scale(1.1);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.category-item:hover .category-name {
+  color: #007BFF; /* Blue color on hover */
+}

@@ -1,0 +1,168 @@
+/* Header.css */
+/* General Header Styling */
+header {
+    background-color: #11100e;
+    color: black;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-container {
+    margin-right: 30px; /* Space between the logo and other elements */
+}
+
+.site-logo {
+    width: 160px; /* Maintain the original logo size */
+    height: auto;
+    border-radius: 60px;
+}
+
+.search-container {
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    flex: 1; /* Ensures the input takes all available space */
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6);
+    color: black;
+    font-weight: bold;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
+    max-width: 400px;
+}
+
+.search-bar::placeholder {
+    color: #666; /* Darker placeholder text for better visibility */
+}
+
+.search-bar:focus {
+    outline: none;
+    border-color: #fad60d; /* Highlight border on focus */
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 6px 8px rgba(0, 0, 0, 0.25); /* Enhanced shadow on focus */
+    transform: translateY(-1px); /* Slight lift effect */
+}
+
+.search-btn {
+    padding: 8px 15px;
+    background: linear-gradient(to bottom, #ffffff, #e6e6e6); /* Light gradient */
+    color: black; /* Matches nav-link text color */
+    font-weight: bold; /* Matches bold style of nav links */
+    border: 2px solid #ebc10a;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1); /* Shadow for 3D effect */
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.search-btn:hover {
+    background: linear-gradient(to bottom, #e6e6e6, #d4d4d4); /* Slightly darker gradient on hover */
+    transform: translateY(-2px); /* Simulates button press */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.nav-tabs {
+    flex: 3;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black; /* Matches search text */
+    font-weight: bold; /* Matches bold style of search */
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background: linear-gradient(to bottom, #eeb807, #e6e6e6); /* Light gradient for 3D effect */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.1); /* Create the 3D shadow */
+    transition: background 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center; /* Ensure icons are aligned with the text */
+    gap: 8px; /* Space between the icon and the text */
+}
+
+.nav-link:hover {
+    background: linear-gradient(to bottom, #f30707, #d4d4d4); /* Slightly darker gradient on hover */
+    transform: translateY(-2px); /* Simulates the button being "pressed" */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3), 0 2px 2px rgba(0, 0, 0, 0.2); /* More prominent shadow */
+}
+
+.nav-link i {
+    font-size: 20px; /* Adjust icon size */
+}
+
+/* Mobile-responsive Styles */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column; /* Stack header elements vertically on smaller screens */
+        padding: 20px; /* Add padding for spacing */
+    }
+
+    .logo-container {
+        margin-right: 0;
+        margin-bottom: 10px; /* Space between logo and search bar */
+    }
+
+    .site-logo {
+        width: 120px; /* Smaller logo on mobile */
+    }
+
+    .search-container {
+        flex-direction: column; /* Stack input and button vertically */
+        width: 100%;
+        margin-bottom: 10px; /* Add some space between the search bar and the button */
+    }
+
+    .search-bar {
+        width: 100%; /* Make the search bar take full width */
+        margin-bottom: 10px; /* Space between search input and button */
+    }
+
+    .search-btn {
+        width: 100%; /* Make the search button full width */
+    }
+
+    .nav-tabs {
+        flex-direction: column; /* Stack the nav links vertically */
+        align-items: center;
+    }
+
+    .nav-link {
+        margin-bottom: 10px; /* Space between each nav item */
+        padding: 12px 20px; /* Adjust padding for touch screens */
+    }
+
+    .nav-link i {
+        font-size: 18px; /* Slightly smaller icons for mobile */
+    }
+}
+
+/* For very small devices (like old mobile phones) */
+@media (max-width: 480px) {
+    .site-logo {
+        width: 100px; /* Even smaller logo */
+    }
+
+    .nav-link {
+        font-size: 14px; /* Smaller text for very small screens */
+    }
+
+    .search-bar {
+        font-size: 14px; /* Smaller font size for search bar */
+    }
+
+    .search-btn {
+        font-size: 14px; /* Smaller font size for button */
+    }
+}
+

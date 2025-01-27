@@ -1,0 +1,58 @@
+.offer-carousel {
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0;
+  background-color: #f8f9fa;
+}
+
+.offer-card {
+  text-align: center;
+  padding: 10px;
+  
+  border-radius: 8px; /* Slightly reduced border-radius */
+  background: linear-gradient(to bottom, #FFD700, #ffffff); /* Yellow to white gradient */
+  color: #000; /* Black text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-card img {
+  width: 100%;
+  height: 300px; /* Reduced height for more compact look */
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.offer-details {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.offer-details h3 {
+  font-size: 1rem; /* Reduced font size */
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #888;
+  margin-right: 10px;
+}
+
+.new-price {
+  font-weight: bold;
+  color: #e74c3c;
+}
+
+.description {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.slick-prev, .slick-next {
+  z-index: 1;
+}

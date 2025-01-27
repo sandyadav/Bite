@@ -1,0 +1,62 @@
+.item-card {
+  width: 200px; /* Reduced width for a smaller card */
+  height: auto; /* Allow height to adjust based on content */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  background: linear-gradient(to bottom, #FFD700, #ffffff); /* Gradient from yellow (bottom) to white (top) */
+  color: #000; /* Black text for contrast */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px; /* Reduced padding */
+}
+
+.item-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  image-rendering: crisp-edges;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px; /* Reduced gap */
+}
+
+.item-name {
+  font-size: 16px; /* Slightly smaller font */
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.item-price,
+.item-serving {
+  font-size: 12px; /* Reduced font size for compact layout */
+  margin: 3px 0;
+}
+
+.add-to-cart-btn {
+  padding: 6px 10px; /* Reduced padding for button */
+  background: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  max-width: 130px;
+  display: inline-block;
+  text-align: center;
+  margin-top: 8px; /* Reduced space from item details */
+  transition: background-color 0.3s ease;
+}
+
+.add-to-cart-btn:hover {
+  background: #e63900;
+}
