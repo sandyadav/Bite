@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/Bite/static/css/main.f172ca71.css",
+    "main.js": "/Bite/static/js/main.3033173b.js",
+    "static/js/488.30762f3c.chunk.js": "/Bite/static/js/488.30762f3c.chunk.js",
+    "static/media/Momo.jpg": "/Bite/static/media/Momo.18fc213d7b7f81c2a325.jpg",
+    "static/media/Sattu Paratha.PNG": "/Bite/static/media/Sattu Paratha.ae850be35dd5679400d7.PNG",
+    "static/media/Aloo Paratha.PNG": "/Bite/static/media/Aloo Paratha.58668793d01d416e6a35.PNG",
+    "static/media/Burger.jpg": "/Bite/static/media/Burger.a6c6d16c99655b9fd58c.jpg",
+    "static/media/Veg Thali.jpg": "/Bite/static/media/Veg Thali.11f17b32044aa90a94c5.jpg",
+    "static/media/Cheese Sandwich.jpg": "/Bite/static/media/Cheese Sandwich.5673b056e92bafd6c63f.jpg",
+    "static/media/Punjabi Thali.jpg": "/Bite/static/media/Punjabi Thali.fb1136f55057d13acde1.jpg",
+    "static/media/Methi Paratha.jpg": "/Bite/static/media/Methi Paratha.9a83e2479dc1b1578de2.jpg",
+    "static/media/Paneer Burger.jpg": "/Bite/static/media/Paneer Burger.681a6463aad6b68fe3cd.jpg",
+    "static/media/Pyaz Paratha.jpg": "/Bite/static/media/Pyaz Paratha.e5f05b1cafb3b082ee42.jpg",
+    "static/media/Veg Wrap.jpg": "/Bite/static/media/Veg Wrap.8245d89aa54de055d108.jpg",
+    "static/media/Aloo Tikki Burger.jpg": "/Bite/static/media/Aloo Tikki Burger.133d64c3b1d2fb828a2a.jpg",
+    "static/media/Paneer Paratha.jpg": "/Bite/static/media/Paneer Paratha.e65385ed464f91894b11.jpg",
+    "static/media/Veg Burger.jpg": "/Bite/static/media/Veg Burger.b3480d99061bedb573fe.jpg",
+    "static/media/Gobhi Paratha.jpg": "/Bite/static/media/Gobhi Paratha.f634ab05fdddbcb9059f.jpg",
+    "static/media/French Fries.jpg": "/Bite/static/media/French Fries.30861316c32b25f979cb.jpg",
+    "static/media/Slogan-Final.PNG": "/Bite/static/media/Slogan-Final.98618bcf108a48c5ac72.PNG",
+    "static/media/South Indian Thali.PNG": "/Bite/static/media/South Indian Thali.bf8b45b88f1e430fbaad.PNG",
+    "static/media/Paneer Roll.jpg": "/Bite/static/media/Paneer Roll.ea0dd8b11ec414083e92.jpg",
+    "static/media/Logo.png": "/Bite/static/media/Logo.5602903e264995359a46.png",
+    "static/media/slick.svg": "/Bite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Bite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Bite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Bite/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Bite/index.html",
+    "main.f172ca71.css.map": "/Bite/static/css/main.f172ca71.css.map",
+    "main.3033173b.js.map": "/Bite/static/js/main.3033173b.js.map",
+    "488.30762f3c.chunk.js.map": "/Bite/static/js/488.30762f3c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f172ca71.css",
+    "static/js/main.3033173b.js"
+  ]
+}
